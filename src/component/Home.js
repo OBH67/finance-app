@@ -7,10 +7,9 @@ const Home = () => {
         <div class="bg-gradient-to-br from-indigo-900 to-green-900 min-h-screen overflow-auto">
             <div class="container max-w-5xl mx-auto px-4">
             <div class="w-4/5">
-                <h1 class="mt-32 text-white text-6xl font-bold"></h1>
+                <h1 class="mt-32 text-white text-6xl font-bold">MY DEX'S</h1>
             </div>
             <div class="text-white relative">
-                <h3 class="text-uppercase font-semibold">Websites</h3>
                 <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 sm:gap-5 uppercase">
 
                 { datos.map((info) =>
